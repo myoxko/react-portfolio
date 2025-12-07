@@ -29,6 +29,9 @@ import bio_pic4 from './assets/img/bio_pic4.png'
 import bio_pic5 from './assets/img/bio_pic5.png'
 import bio_pic6 from './assets/img/bio_pic6.png'
 
+import q_thumbnail from './assets/img/q_thumbnail.svg'
+
+import tama_thumbnail from './assets/img/tama_thumbnail.svg'
 
 const CATEGORIES = [
   { id: 'all', label: '전체' },
@@ -179,6 +182,42 @@ const projects = [
     learnings: ['콘셉트 기획', '데스크톱 UI 구현','인터랙티브 효과',  '반응형 웹 디자인'],
     codeReview: [
       '라우터 기반 SPA 구조',
+    ],
+    categories: ['plan', 'design'],
+    video: 'https://www.youtube.com/watch?v=thcCcn88lg8',
+    
+  },
+  {
+    id: 'p8',
+    title: 'Quantum SP∞ce',
+    summary: `개인 브랜딩 포토 기반 웹사이트 디자인`,
+    period: '2024.04 ~ 2024.06',
+    role: '1인 프로젝트',
+    tech: ['Figma', 'illustrator', 'Photoshop'],
+    cover: q_thumbnail,
+    gallery: [],
+    overview: `개인 브랜딩 포토 기반 웹사이트 'Quantum SP∞ce' 디자인`,
+    learnings: ['웹 디자인'],
+    codeReview: [
+      '원스크롤 웹페이지 제작',
+    ],
+    categories: ['plan', 'design'],
+    video: 'https://youtu.be/rIpnG-6nBp4',
+    
+  },
+  {
+    id: 'p9',
+    title: 'Tamagotchi Online',
+    summary: `애니어그램 성격 유형에 대해 알아볼 수 있는 웹사이트 제작`,
+    period: '2024.04 ~ 2024.06',
+    role: '1인 프로젝트',
+    tech: ['Figma', 'illustrator', 'Photoshop'],
+    cover: tama_thumbnail,
+    gallery: [],
+    overview: `에니어그램 성격 유형을 다마고치 콘셉트로 캐릭터화하여 디자인 및 웹디자인`,
+    learnings: ['웹 디자인'],
+    codeReview: [
+      '원스크롤 웹페이지 제작',
     ],
     categories: ['plan', 'design'],
     video: 'https://youtu.be/rIpnG-6nBp4',
