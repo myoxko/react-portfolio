@@ -1,8 +1,7 @@
-// vite.config.js
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'  // ✅ swc 버전으로!
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/',   // 일단 로컬 개발용으로만 간단하게
+  base: '/react-portfolio/',   // ✅ 이 줄이 핵심
 })
