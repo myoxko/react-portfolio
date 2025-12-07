@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 100 100"
+     preserveAspectRatio="xMidYMid meet">
+
+  <defs>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+
+  <circle
+    cx="50"
+    cy="50"
+    r="48"
+    fill="#343434" />
+
+  <text
+    x="50%"
+    y=
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-size="84"
+    font-weight="600"
+    font-family="Arial, Helvetica, sans-serif"
+    fill="#0ae0ff"
+    filter="url(#softGlow)">
+    Σ
+  </text>
+</svg>
+
+
